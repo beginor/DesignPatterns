@@ -1,0 +1,13 @@
+*.suo
+*.manifest
+*.user
+*.pidb
+*.DS_Store
+TestResults
+Debug/
+Release/
+obj/
+bin/
+Bin/
+ClientBin/
+clientbin/
