@@ -10,11 +10,11 @@ namespace Interpreter {
 			this._name = name;
 		}
 
-		public int Interpret(Dictionary<string, IExpression> variables) {
+		public int Interpret(Dictionary<string, IExpression> context) {
 			if (string.IsNullOrEmpty(this._name)) {
 				return 0;
 			}
-			return variables[this._name].Interpret(variables);
+			return context[this._name].Interpret(context);
 		}
 	}
 }

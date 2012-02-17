@@ -10,7 +10,7 @@ namespace Interpreter {
 			this._number = number;
 		}
 	
-		public int Interpret(Dictionary<string, IExpression> variables) {
+		public int Interpret(Dictionary<string, IExpression> context) {
 			return this._number;
 		}
 

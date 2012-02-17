@@ -24,8 +24,8 @@ namespace Interpreter {
 			this._expressionTree = stack.Pop();
 		}
 		
-		public int Interpret(Dictionary<string, IExpression> variables) {
-			return this._expressionTree.Interpret(variables);
+		public int Interpret(Dictionary<string, IExpression> context) {
+			return this._expressionTree.Interpret(context);
 		}
 	}
 }

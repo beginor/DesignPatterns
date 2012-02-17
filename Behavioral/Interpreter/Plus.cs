@@ -12,8 +12,8 @@ namespace Interpreter {
 			this._rightOperand = rightOperand;
 		}
 
-		public int Interpret(Dictionary<string, IExpression> variables) {
-			return this._leftOperand.Interpret(variables) + this._rightOperand.Interpret(variables);
+		public int Interpret(Dictionary<string, IExpression> context) {
+			return this._leftOperand.Interpret(context) + this._rightOperand.Interpret(context);
 		}
 
 	}

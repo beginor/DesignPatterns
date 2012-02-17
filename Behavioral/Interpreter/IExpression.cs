@@ -4,7 +4,7 @@ namespace Interpreter {
 
 	public interface IExpression {
 
-		int Interpret(Dictionary<string, IExpression> variables);
+		int Interpret(Dictionary<string, IExpression> context);
 
 	}
 }
