@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Behavioral\Iter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Behavioral\Mediator\Mediator.csproj", "{9D3B3EAE-1446-4896-8800-C8EA82C3BFD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "R:\WpfApp\WpfApp.csproj", "{CDE97CC2-CF6A-4FF9-B711-97A6B70C4AD8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,12 +53,6 @@ Global
 		{9D3B3EAE-1446-4896-8800-C8EA82C3BFD6}.Release|Any CPU.ActiveCfg = Release|x86
 		{9D3B3EAE-1446-4896-8800-C8EA82C3BFD6}.Release|x86.ActiveCfg = Release|x86
 		{9D3B3EAE-1446-4896-8800-C8EA82C3BFD6}.Release|x86.Build.0 = Release|x86
-		{CDE97CC2-CF6A-4FF9-B711-97A6B70C4AD8}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{CDE97CC2-CF6A-4FF9-B711-97A6B70C4AD8}.Debug|x86.ActiveCfg = Debug|x86
-		{CDE97CC2-CF6A-4FF9-B711-97A6B70C4AD8}.Debug|x86.Build.0 = Debug|x86
-		{CDE97CC2-CF6A-4FF9-B711-97A6B70C4AD8}.Release|Any CPU.ActiveCfg = Release|x86
-		{CDE97CC2-CF6A-4FF9-B711-97A6B70C4AD8}.Release|x86.ActiveCfg = Release|x86
-		{CDE97CC2-CF6A-4FF9-B711-97A6B70C4AD8}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
