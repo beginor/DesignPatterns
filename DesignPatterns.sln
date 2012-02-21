@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Behavioral\Medi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Behavioral\Memento\Memento.csproj", "{C404876C-B04B-451F-B159-2C0CF8CB861B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Behavioral\Observer\Observer.csproj", "{2823F21D-D474-447D-9C8B-74B29D0D9B35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,12 @@ Global
 		{C404876C-B04B-451F-B159-2C0CF8CB861B}.Release|Any CPU.ActiveCfg = Release|x86
 		{C404876C-B04B-451F-B159-2C0CF8CB861B}.Release|x86.ActiveCfg = Release|x86
 		{C404876C-B04B-451F-B159-2C0CF8CB861B}.Release|x86.Build.0 = Release|x86
+		{2823F21D-D474-447D-9C8B-74B29D0D9B35}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{2823F21D-D474-447D-9C8B-74B29D0D9B35}.Debug|x86.ActiveCfg = Debug|x86
+		{2823F21D-D474-447D-9C8B-74B29D0D9B35}.Debug|x86.Build.0 = Debug|x86
+		{2823F21D-D474-447D-9C8B-74B29D0D9B35}.Release|Any CPU.ActiveCfg = Release|x86
+		{2823F21D-D474-447D-9C8B-74B29D0D9B35}.Release|x86.ActiveCfg = Release|x86
+		{2823F21D-D474-447D-9C8B-74B29D0D9B35}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,5 +80,6 @@ Global
 		{2A37AC43-5F17-4774-B9BE-8D5008F41F43} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
 		{9D3B3EAE-1446-4896-8800-C8EA82C3BFD6} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
 		{C404876C-B04B-451F-B159-2C0CF8CB861B} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
+		{2823F21D-D474-447D-9C8B-74B29D0D9B35} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
 	EndGlobalSection
 EndGlobal
