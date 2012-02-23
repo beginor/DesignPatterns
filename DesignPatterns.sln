@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Behavioral\Obse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "Behavioral\State\State.csproj", "{F214B483-E8BB-477D-807F-24F176B588D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Behavioral\Strategy\Strategy.csproj", "{D728B5BD-4BE1-4B45-A0A3-08A878DAE254}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,12 @@ Global
 		{F214B483-E8BB-477D-807F-24F176B588D5}.Release|Any CPU.ActiveCfg = Release|x86
 		{F214B483-E8BB-477D-807F-24F176B588D5}.Release|x86.ActiveCfg = Release|x86
 		{F214B483-E8BB-477D-807F-24F176B588D5}.Release|x86.Build.0 = Release|x86
+		{D728B5BD-4BE1-4B45-A0A3-08A878DAE254}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D728B5BD-4BE1-4B45-A0A3-08A878DAE254}.Debug|x86.ActiveCfg = Debug|x86
+		{D728B5BD-4BE1-4B45-A0A3-08A878DAE254}.Debug|x86.Build.0 = Debug|x86
+		{D728B5BD-4BE1-4B45-A0A3-08A878DAE254}.Release|Any CPU.ActiveCfg = Release|x86
+		{D728B5BD-4BE1-4B45-A0A3-08A878DAE254}.Release|x86.ActiveCfg = Release|x86
+		{D728B5BD-4BE1-4B45-A0A3-08A878DAE254}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,5 +98,6 @@ Global
 		{C404876C-B04B-451F-B159-2C0CF8CB861B} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
 		{2823F21D-D474-447D-9C8B-74B29D0D9B35} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
 		{F214B483-E8BB-477D-807F-24F176B588D5} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
+		{D728B5BD-4BE1-4B45-A0A3-08A878DAE254} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
 	EndGlobalSection
 EndGlobal
