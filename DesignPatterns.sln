@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Creational\AbstractFactory\AbstractFactory.csproj", "{FF8A73BD-7DCB-46C1-8F83-EE84D65320B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Creational\Builder\Builder.csproj", "{92346BF9-D8E8-4D1E-A3B6-48EA49BD9ADC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,12 @@ Global
 		{FF8A73BD-7DCB-46C1-8F83-EE84D65320B4}.Release|Any CPU.ActiveCfg = Release|x86
 		{FF8A73BD-7DCB-46C1-8F83-EE84D65320B4}.Release|x86.ActiveCfg = Release|x86
 		{FF8A73BD-7DCB-46C1-8F83-EE84D65320B4}.Release|x86.Build.0 = Release|x86
+		{92346BF9-D8E8-4D1E-A3B6-48EA49BD9ADC}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{92346BF9-D8E8-4D1E-A3B6-48EA49BD9ADC}.Debug|x86.ActiveCfg = Debug|x86
+		{92346BF9-D8E8-4D1E-A3B6-48EA49BD9ADC}.Debug|x86.Build.0 = Debug|x86
+		{92346BF9-D8E8-4D1E-A3B6-48EA49BD9ADC}.Release|Any CPU.ActiveCfg = Release|x86
+		{92346BF9-D8E8-4D1E-A3B6-48EA49BD9ADC}.Release|x86.ActiveCfg = Release|x86
+		{92346BF9-D8E8-4D1E-A3B6-48EA49BD9ADC}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,5 +136,6 @@ Global
 		{58B97FDC-8D6B-48A6-A1D0-2EC686254CC5} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
 		{3A2CEFD2-07E1-41C1-B52F-F1801D277E32} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
 		{FF8A73BD-7DCB-46C1-8F83-EE84D65320B4} = {B9EDC98E-1E00-4320-A39F-7D64F44A2D3C}
+		{92346BF9-D8E8-4D1E-A3B6-48EA49BD9ADC} = {B9EDC98E-1E00-4320-A39F-7D64F44A2D3C}
 	EndGlobalSection
 EndGlobal
