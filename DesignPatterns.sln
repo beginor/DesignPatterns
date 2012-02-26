@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Behavioral\Stra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Behavioral\TemplateMethod\TemplateMethod.csproj", "{58B97FDC-8D6B-48A6-A1D0-2EC686254CC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Behavioral\Visitor\Visitor.csproj", "{3A2CEFD2-07E1-41C1-B52F-F1801D277E32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,12 @@ Global
 		{58B97FDC-8D6B-48A6-A1D0-2EC686254CC5}.Release|Any CPU.ActiveCfg = Release|x86
 		{58B97FDC-8D6B-48A6-A1D0-2EC686254CC5}.Release|x86.ActiveCfg = Release|x86
 		{58B97FDC-8D6B-48A6-A1D0-2EC686254CC5}.Release|x86.Build.0 = Release|x86
+		{3A2CEFD2-07E1-41C1-B52F-F1801D277E32}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3A2CEFD2-07E1-41C1-B52F-F1801D277E32}.Debug|x86.ActiveCfg = Debug|x86
+		{3A2CEFD2-07E1-41C1-B52F-F1801D277E32}.Debug|x86.Build.0 = Debug|x86
+		{3A2CEFD2-07E1-41C1-B52F-F1801D277E32}.Release|Any CPU.ActiveCfg = Release|x86
+		{3A2CEFD2-07E1-41C1-B52F-F1801D277E32}.Release|x86.ActiveCfg = Release|x86
+		{3A2CEFD2-07E1-41C1-B52F-F1801D277E32}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,5 +116,6 @@ Global
 		{F214B483-E8BB-477D-807F-24F176B588D5} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
 		{D728B5BD-4BE1-4B45-A0A3-08A878DAE254} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
 		{58B97FDC-8D6B-48A6-A1D0-2EC686254CC5} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
+		{3A2CEFD2-07E1-41C1-B52F-F1801D277E32} = {B3C3F0E2-50B6-450B-A161-F4500F4E681D}
 	EndGlobalSection
 EndGlobal
