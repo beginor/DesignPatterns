@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{72F9E83E-462A-4A2F-88BB-1A8A1AE33AE0}</ProjectGuid>
+    <ProjectGuid>{F8ED6676-6701-4476-9606-4D150EF4A537}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Adapter</RootNamespace>
-    <AssemblyName>Adapter</AssemblyName>
+    <RootNamespace>Composite</RootNamespace>
+    <AssemblyName>Composite</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adaptee.cs" />
-    <Compile Include="Adapter.cs" />
-    <Compile Include="ITarget.cs" />
+    <Compile Include="CompositeGraphic.cs" />
+    <Compile Include="Ellipse.cs" />
+    <Compile Include="IGraphic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
