@@ -3,11 +3,7 @@
 *.user
 *.pidb
 *.DS_Store
-TestResults
-Debug/
-Release/
-obj/
-bin/
-Bin/
-ClientBin/
-clientbin/
+[Tt]est[Rr]esults
+[Oo]bj/
+[Bb]in/
+[Cc]lient[Bb]in/
