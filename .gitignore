@@ -3,6 +3,7 @@
 *.user
 *.pidb
 *.DS_Store
+*.userprefs
 [Tt]est[Rr]esults
 [Oo]bj/
 [Bb]in/
