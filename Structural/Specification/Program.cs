@@ -21,6 +21,8 @@ namespace Specification {
             var appleSmartMobiles = mobiles.FindAll(mobile => andSpecification.IsSatisfiedBy(mobile));
 
             Console.WriteLine("Hello World!");
+            
+            Console.ReadKey();
         }
 
     }
