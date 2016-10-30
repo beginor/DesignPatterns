@@ -1,7 +1,13 @@
 using System;
 
-public abstract class AbstractCustomer {
-	protected string title;
-	
-	public abstract string GetTitle();
+namespace NullObject {
+
+    public abstract class AbstractBook {
+
+        protected string title;
+
+        public abstract string GetTitle();
+
+    }
+
 }

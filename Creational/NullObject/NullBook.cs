@@ -1,9 +1,13 @@
 using System;
 
-class NullBook : AbstractCustomer {
-	
-	public override string GetTitle() {
-		return "Not avaible in Customer Database";
-	}
-	
+namespace NullObject {
+
+    class NullBook : AbstractBook {
+
+        public override string GetTitle() {
+            return "Not avaible in Customer Database";
+        }
+
+    }
+
 }

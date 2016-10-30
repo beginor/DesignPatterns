@@ -1,12 +1,17 @@
 using System;
 
-public class Book : AbstractCustomer {
-	
-	public Book (String title) {
-		this.title = title;
-	}
-	
-	public override string GetTitle() {
-		return title;
-	}
+namespace NullObject {
+
+    public class Book : AbstractBook {
+
+        public Book(string title) {
+            this.title = title;
+        }
+
+        public override string GetTitle() {
+            return title;
+        }
+
+    }
+
 }
